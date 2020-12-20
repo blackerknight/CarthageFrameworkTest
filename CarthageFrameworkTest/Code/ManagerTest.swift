@@ -9,8 +9,12 @@ import Foundation
 
 public class ManagerTest {
     
-    public func start() {
-        print("start")
+    public init() {
+        
+    }
+    
+    public func start() -> String {
+        return "String desde el framework"
     }
     
 }
