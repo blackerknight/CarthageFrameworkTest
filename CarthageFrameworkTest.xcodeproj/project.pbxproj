@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6D99A00A258FEA49008C751F /* CarthageFrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D99A008258FEA49008C751F /* CarthageFrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D99A035258FF1F2008C751F /* ManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D99A034258FF1F2008C751F /* ManagerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D99A005258FEA49008C751F /* CarthageFrameworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageFrameworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D99A008258FEA49008C751F /* CarthageFrameworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageFrameworkTest.h; sourceTree = "<group>"; };
 		6D99A009258FEA49008C751F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D99A034258FF1F2008C751F /* ManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,19 @@
 		6D99A007258FEA49008C751F /* CarthageFrameworkTest */ = {
 			isa = PBXGroup;
 			children = (
+				6D99A033258FF1E5008C751F /* Code */,
 				6D99A008258FEA49008C751F /* CarthageFrameworkTest.h */,
 				6D99A009258FEA49008C751F /* Info.plist */,
 			);
 			path = CarthageFrameworkTest;
+			sourceTree = "<group>";
+		};
+		6D99A033258FF1E5008C751F /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				6D99A034258FF1F2008C751F /* ManagerTest.swift */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +105,7 @@
 				TargetAttributes = {
 					6D99A004258FEA49008C751F = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -130,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D99A035258FF1F2008C751F /* ManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		6D99A00E258FEA49008C751F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7XG3ZS46L8;
@@ -278,6 +292,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = black.dev.CarthageFrameworkTest;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +302,7 @@
 		6D99A00F258FEA49008C751F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7XG3ZS46L8;
@@ -303,6 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = black.dev.CarthageFrameworkTest;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
