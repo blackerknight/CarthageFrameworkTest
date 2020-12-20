@@ -17,4 +17,8 @@ public class ManagerTest {
         return "String desde el framework"
     }
     
+    public func stop() {
+        print("stop framework .... ")
+    }
+    
 }

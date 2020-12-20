@@ -1,0 +1,20 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v1.0.0",
+  "iOS" : [
+    {
+      "hash" : "4a0405a4c9458a42ba1103be1426154f0a24c414746c6e120ad6b79f65196384",
+      "name" : "CarthageFrameworkTest",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+    }
+  ]
+}
