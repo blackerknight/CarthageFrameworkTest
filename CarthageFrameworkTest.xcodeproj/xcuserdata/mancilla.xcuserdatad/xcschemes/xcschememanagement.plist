@@ -9,10 +9,12 @@
 			<key>isShown</key>
 			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>ExampleProject.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -20,6 +22,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>6D99A004258FEA49008C751F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D99A03B258FF917008C751F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
